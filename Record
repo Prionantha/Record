@@ -1,0 +1,13 @@
+8/14/2018
+上午：昨天装好的Coverity和Clion在哪里打开找不到了...
+      Clion->原来clion.sh就是？我还以为那是安装的shellscript..	
+      Coverity->隐藏在/bin中的无数没有后缀名的文件当中...并且改叫了cov-wizard
+      掀桌QAQ
+下午：抱住盛俭大佬大腿，根据文档开发编译命令尝试了一下规则的test
+      忙活alias以及$PATH,果然学校里学的都还给老师了
+      修改.bashrc之后的PATH前面总会莫名其妙多出来一长串目录，宝胜大大发现PATH原来是有初值的，
+
+所以接上去了...
+      继续掀桌Orz
+      不过听说盛俭当初sudo把path直接改了，完了系统跑炸了。不厚道地狂笑三声hiahiahia
+Notes: 1. Alias vs export $PATH: Alias是用来给命令加别名的，后面的环境变量是给路径/文件加别名的
